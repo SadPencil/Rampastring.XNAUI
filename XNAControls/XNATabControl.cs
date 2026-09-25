@@ -60,8 +60,7 @@ public class XNATabControl : XNAControl
     private List<Tab> Tabs = new List<Tab>();
 
     /// <summary>
-    /// Maps a public tab index (stable identity used by applications and INI)
-    /// to the current internal index in <see cref="Tabs"/>.
+    /// Maps a public tab index to the current internal index in <see cref="Tabs"/>.
     /// </summary>
     private readonly Dictionary<int, int> _publicToInternalIndex = new Dictionary<int, int>();
 
