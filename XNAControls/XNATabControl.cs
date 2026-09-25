@@ -45,7 +45,8 @@ public class XNATabControl : XNAControl
 
     public Color TextColor
     {
-        get => _textColor ?? UISettings.ActiveSettings.AltColor; set => _textColor = value;
+        get => _textColor ?? UISettings.ActiveSettings.AltColor;
+        set => _textColor = value;
     }
 
     private Color? _textColorDisabled;
